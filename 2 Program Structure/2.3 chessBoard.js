@@ -1,6 +1,6 @@
 ﻿let XSize = 8;
 let YSize = 8;
-let CHR = '# ';
+const CHR = '# ';
 for (let count = 0; count < YSize; count++) {
     let seq = ""
     if (count % 2 == 0) seq += " ";
